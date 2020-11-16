@@ -1,0 +1,291 @@
+/* Style the body */
+body {
+    font-family: a;
+    margin: 0;
+    font-size: 18px;
+    }
+
+* {
+    box-sizing: border-box;
+    }
+
+a {
+    text-decoration: none;
+    }
+
+/* texts */
+
+
+h1, h2, h3 {
+    color: #2b468b;
+
+    }
+
+
+h1 {
+    font-size: 44px;
+    font-weight: 200;
+    line-height: 1.4;
+    }
+
+h2 {
+    font-size: 36px;
+    font-weight: 200;
+    }
+
+h3 {
+    font-size: 28px;
+    font-weight: 300;
+    }
+
+p {
+    color: #333;
+    font-weight: 300;
+    line-height: 1.4
+    }
+
+
+/* navigation bar */
+
+.navbar {
+    overflow: auto;
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    }
+
+.logo-handler {
+    display: block;
+    float: left;
+    }
+
+.link-handler {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    float: right;
+    }
+
+p.logo {
+    color: #2b468b;
+    font-size: 30px !important;
+    font-weight: 600;
+    margin: 0;
+    padding: 2px 0 0;
+    }
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #2b468b;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    margin: 0 5px;
+    }
+
+.navbar a:hover {
+    background-color: #2b468b;
+    border-radius: 30px;
+    color: #fff;
+    }
+
+.navbar a.active {
+    background-color: #628dc0;
+    border-radius: 30px;
+    color: white;
+    }
+
+
+/* divs */
+
+div {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    }
+
+.content {
+    margin: 0 auto;
+    width: 70%;
+    }
+
+.header {
+    padding: 70px 0 30px;
+    }
+
+.row {
+    clear: both;
+    display: table;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    }
+
+.image-handler {
+    display: block;
+    float: left;
+    width: 60%;
+    }
+
+.text-handler {
+    display: inline-block;
+    width: 40%;
+    padding: 14px 20px;
+    }
+
+.col-3 {
+    display: block;
+    float: left;
+    width: 33.33%;
+    padding: 0 30px 0 0;
+    text-align: left;
+    }
+
+.col-2 {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0 30px 0 0;
+    text-align: left;
+    }
+
+
+/* Content */
+
+.buy-now {
+    display: block;
+    margin-top: 50px;
+    }
+
+.buy-now a {
+        background: #2b468b;
+        border-radius: 40px;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 600;
+        padding: 24px 50px;
+        text-transform: uppercase;
+    }
+
+.buy-now a:hover {
+        background: #ed823a;
+    }
+
+img.drone_del {
+    width: 50%;
+    vertical-align: bottom;
+    }
+
+img.drone_spec {
+    width: 76%;
+    }
+
+/* Footer */
+.footer {
+    background: #eaf3fa;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    
+.header,
+
+.row {   
+    flex-direction: column;
+    padding: 20px 0;
+}
+    
+.row {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content {
+    width: 100%;
+}
+    
+.image-handler,
+
+.text-handler {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+    
+.navbar a {
+    float: none;
+    width: 100%;
+    padding: 14px 0;
+}
+    
+.navbar,
+
+.logo-handler,
+
+.link-handler {
+    width: 100%;
+    text-align: center;
+}
+    
+.logo-handler {
+    padding: 20px 0;
+    }
+    
+.col-3,
+
+.col-2,
+    
+img.drone_spec {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+}
+    
+h2 {
+    text-align: left;
+    width: 80%;
+}
+
+img.drone_spec {
+    margin: 0 auto 40px;
+    }
+    
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+
+  background-color: #2b468b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: gray;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: lightblue;
+  padding: 20px;
+}
+
+

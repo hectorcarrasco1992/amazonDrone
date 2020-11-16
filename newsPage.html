@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./newsPage.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+        <!-- <div class="navbar">
+            
+            <div class="logo-handler">
+                <p class="logo">Amazon Drone Delivery</p>
+            </div>
+            
+            <div class="link-handler">
+                <a href="./Main/main.html" class="active">Home</a>
+                <a href="#">Reviews</a>
+                <a href="./newsPage.html">News</a>
+                <a href="./Products/product.html">Inquiry</a>
+                <a href="#">About us</a>
+            </div> -->
+            
+        <!-- </div> -->
+        
+            <nav class="nav">
+                <a href="./Main//main.html" class="link">Main</a>
+                <a href="./newsPage.html" class="link">News</a>
+                <a href="" class="link">Reviews</a>
+                <a href="./Products/product.html" class="link">Products</a>
+                <a href="" class="link">About</a>
+            </nav>
+
+            <div class="add-news">
+                <h1>Add A News Story</h1>
+                <input type="text" name=""  placeholder="Image Link" id="img-input">
+                <input type="text" name=""  placeholder="Heading" id="heading-input">
+                <input type="text" name=""  placeholder="SubHeading" id="sub-input">
+                <textarea name=""  cols="30" rows="10" id="info-input"></textarea>
+                <button onClick= addStory()>Add</button>
+
+            </div>
+
+            <div id="news">
+                <div class="news-card">
+                    <div class="news-info">
+                        <img src="./dronePic.jpeg" alt="picture of amazon drone" class="news-img">
+                        <h1>Sum stuff</h1>
+                        <h2>Sub heading</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ad ratione aspernatur in modi asperiores error dolore. Minus assumenda laudantium ullam culpa a expedita et at commodi. Ipsum, iure culpa!</p>
+                        <button onclick="delStory(this)" id="del">Delete</button>
+                        
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-info">
+                        <img src="./dronePic.jpeg" alt="picture of amazon drone" class="news-img">
+                        <h1>Sum stuff</h1>
+                        <h2>Sub heading</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ad ratione aspernatur in modi asperiores error dolore. Minus assumenda laudantium ullam culpa a expedita et at commodi. Ipsum, iure culpa!</p>
+                        <button onclick="delStory(this)">Delete</button>
+                        
+                    </div>
+                </div>
+            </div>
+                
+        <script src="./newsPage.js"></script>
+    </body>
+</html>
