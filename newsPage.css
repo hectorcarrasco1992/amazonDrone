@@ -106,6 +106,7 @@ p.logo {
 .news-img{
     border-radius: 30px;
     padding-top: 10px;
+    width: 50%;
 }
 
 #news{

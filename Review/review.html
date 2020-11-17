@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Reviews</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="../newsPage.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+        <!-- <div class="navbar">
+            
+            <div class="logo-handler">
+                <p class="logo">Amazon Drone Delivery</p>
+            </div>
+            
+            <div class="link-handler">
+                <a href="./Main/main.html" class="active">Home</a>
+                <a href="#">Reviews</a>
+                <a href="./newsPage.html">News</a>
+                <a href="./Products/product.html">Inquiry</a>
+                <a href="#">About us</a>
+            </div> -->
+            
+        <!-- </div> -->
+        
+            <nav class="nav">
+                <a href="../Main/main.html" class="link">Main</a>
+                <a href="../newsPage.html" class="link">News</a>
+                <a href="./review.html" class="link">Reviews</a>
+                <a href="../Products/product.html" class="link">Inquiry</a>
+                <a href="../About/About.html" class="link">About</a>
+            </nav>
+
+            <div class="add-news">
+                <h1>Write a Review</h1>
+                <input type="text" name=""  placeholder="Image Link" id="img-input">
+                <input type="text" name=""  placeholder="Name" id="heading-input">
+                <input type="text" name=""  placeholder="Rating" id="sub-input">
+                <textarea name=""  cols="30" rows="10" id="info-input" placeholder="Comments"></textarea>
+                <button onClick= addStory()>Add</button>
+
+            </div>
+
+            <div id="news">
+                <div class="news-card">
+                    <div class="news-info">
+                        <img src="https://media.giphy.com/media/26BRBKqUiq586bRVm/source.gif" alt="5 stars" class="news-img">
+                        <h1>Rashaan</h1>
+                        <h2>Rating</h2>
+                        
+                        <p>Amazing system. The Cartel and I are very happy with the speed our "packages were delivered"</p>
+                        <button onclick="delStory(this)" id="del">Delete</button>
+                        
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-info">
+                        <img src="https://media.giphy.com/media/cOL0IZDaLo8PmS1vAM/source.gif" alt="picture of amazon drone" class="news-img">
+                        <h1>Hector</h1>
+                        <h2>5/5</h2>
+                        <p>HOnestly the best drone system in the world!! Delivered all my packages and none of them were bombs!!</p>
+                        <button onclick="delStory(this)">Delete</button>
+                        
+                    </div>
+                </div>
+            </div>
+                
+        <script src="../newsPage.js"></script>
+    </body>
+</html>
